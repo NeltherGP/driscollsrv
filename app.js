@@ -5,8 +5,18 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-
+var cors = require('cors');
 var app = express();
+
+/**
+ * CORS
+ */
+
+app.use(cors({
+    origin: ["http://localhost:3000"],
+    optionsSuccessStatus: 200,
+    credentials: true,
+}));
 
 app.use(logger('dev'));
 app.use(express.json());
