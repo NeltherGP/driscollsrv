@@ -2,8 +2,9 @@
 
 This project is a Single Page Application (SPA) built with React and TypeScript. It consists of two primary modules - Users and News - each offering specific functionalities. The application also supports multi-language with translations available in English (en) and Spanish (es).
 
-**The React application is served by a Node.js server, which code is in this repository.
-**
+**The React application is served by a Node.js server, which code is in this repository.**
+
+**The React App code can be found in this repo :** https://github.com/NeltherGP/driscoll.git 
 ## Features
 
 ### Users Module
