@@ -14,17 +14,15 @@ It is a CRUD to manage user registers, it connects to a mongodb database hosted 
 
 It is a feed where you can see a list of articles from dev.to, for this I used the public API https://developers.forem.com/api  
 
-
-
 # How to run the project: 
 
-create a folder to download the code from the repo: 
-`mkdir driscollsrv`
-enter to that new folder: 
-`cd driscollsrv`
-clone the repo: 
-`git clone https://github.com/NeltherGP/driscollsrv.git`
-install it's dependencys:
-`npm install`
-run the project
-`npm start`
+create a folder to download the code from the repo:  
+`mkdir driscollsrv`  
+enter to that new folder:  
+`cd driscollsrv`  
+clone the repo:  
+`git clone https://github.com/NeltherGP/driscollsrv.git`  
+install it's dependencys:  
+`npm install`  
+run the project  
+`npm start`  
