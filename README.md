@@ -4,7 +4,7 @@ This project is a Single Page Application (SPA) built with React and TypeScript.
 
 **The React application is served by a Node.js server, which code is in this repository.**
 
-**The React App code can be found in this repo :** https://github.com/NeltherGP/driscoll.git 
+**The React App code can be found in this repo, just for review porpouse since it is build within the NodeJS server :** https://github.com/NeltherGP/driscoll.git 
 ## Features
 
 ### Users Module
