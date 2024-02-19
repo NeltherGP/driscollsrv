@@ -28,8 +28,3 @@ install it's dependencys:
 `npm install`
 run the project
 `npm start`
-
-
-
-
-
