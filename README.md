@@ -22,3 +22,4 @@ install it's dependencys:
 `npm install`  
 run the project  
 `npm start`  
+open a browser and go to http://localhost:3001/ 
