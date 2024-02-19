@@ -82,6 +82,7 @@ router.put('/editUser',async function(req,res,next){
 
   if(!userId){
     res.status(400).json({ message: 'User Id not valid' });
+    return
   }
   try{
     
@@ -115,7 +116,7 @@ router.delete('/deleteUser/:id',async function(req,res,next){
     const db = await conn.getDbConnection();
     const collection = db.collection('users');
 
-    const del = await collection.deleteOne({ _id: new ObjectId(userId) });
+    const del = await collection.deleteOne({ _id: new mongodb.ObjectId(userId) });
 
     if (del.deletedCount > 0) {
       res.status(200).json({ message: 'User deleted' });
