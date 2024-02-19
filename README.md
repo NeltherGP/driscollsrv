@@ -16,10 +16,6 @@ It is a feed where you can see a list of articles from dev.to, for this I used t
 
 # How to run the project: 
 
-create a folder to download the code from the repo:  
-`mkdir driscollsrv`  
-enter to that new folder:  
-`cd driscollsrv`  
 clone the repo:  
 `git clone https://github.com/NeltherGP/driscollsrv.git`  
 install it's dependencys:  
